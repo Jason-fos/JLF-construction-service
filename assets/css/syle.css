@@ -34,3 +34,13 @@ header>div {
     list-style-type: none;
     margin: 30px 125px;    
 }
+
+#nav-bar a {
+    color: #0073ff;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid #00cc00;
+    color: #00cc00;
+}
