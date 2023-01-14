@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@500&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Merriweather, sans-serif;
+}
+
+/* logo and nav-bar */
+
+h1 {
+    font-family: Playfair+Display, sans-serif;
+    letter-spacing: 3px;
+    color: #0073ff;
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+header>div {
+    background-color: #dddddd;
+    height: 125px;
+}
+
+#nav-bar {
+    font-size: 125%;
+}
+
+#nav-bar li {
+    float: left;
+    list-style-type: none;
+    margin: 30px 125px;    
+}
