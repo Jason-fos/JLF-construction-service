@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@500&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@
 
 body {
     font-family: Merriweather, sans-serif;
+    color: #1a1a1a;
 }
 
 /* logo and nav-bar */
@@ -47,11 +49,11 @@ header>div {
     color: #00cc00;
 }
 
-/* image collage and cover text */
+/* home page image and cover text */
 
 #main-image {
     width: 100%;
-    height: 1000px;
+    height: 750px;
     background: url(../images/high-end-paving.jpg) no-repeat center center;
 }
 
@@ -72,4 +74,37 @@ header>div {
     color: white;
     font-family: Merriweather, sans-serif;
     text-align: center;
+}
+
+/* our services and what we do */
+
+
+#left-service {
+    width: 33%;
+    height: 500px;
+    float: left;
+    background-color: rgba(0, 115, 255, 70%);
+    display: inline-block;
+}
+
+#left-service-image {
+    
+}
+
+#center-text-div {
+    width: 33%;
+    height: 500px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 7px;
+    text-decoration: underline;
+}
+
+
+#right-service {
+    width: 33%;
+    height: 500px;
+    float: right;
+    background-color: rgba(0, 204, 0, 70%);
+    display: inline-block;
 }
