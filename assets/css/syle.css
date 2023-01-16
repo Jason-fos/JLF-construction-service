@@ -98,13 +98,35 @@ header>div {
 
 #center-text-div {
     width: 33%;
-    height: 500px;
+    height: 450px;
     display: inline-block;
     text-align: center;
     margin-left: 7px;
-    text-decoration: underline;
 }
 
+#center-text-div h2 {
+    font-family: Playfair Display, sans-serif;
+    text-decoration: underline;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+#center-text-div p {
+    font-family: Merriweather, sans-serif;
+    font-size: 125%;
+    margin-top: 30px;
+}
+
+#about-us-button {
+    font-size: 20px;
+    margin-top: 50px;
+
+}
+
+#about-us-button:hover {
+    color: orange;
+}
 
 #right-service {
     width: 33%;
@@ -127,7 +149,9 @@ header>div {
     text-align: center;
     padding-top: 10px;
     margin-top: 50px;
-    font-size: 125%;  
+    font-size: 125%; 
+    font-weight: 600;
+    font-family: Merriweather, sans-serif; 
     border: none;
     color: whitesmoke;  
 }
@@ -136,14 +160,14 @@ header>div {
     text-decoration: none;
 }
 
+#right-service>a:hover {
+    text-decoration: underline #ffa500;
+}
+
 #left-service>a {
     text-decoration: none;
 }
 
-/* accreditation section */
-
-#accreditation-image {
-    /* width: 100%;
-    height: 250px;
-    background: */
+#left-service>a:hover {
+    text-decoration: underline #ffa500;
 }
