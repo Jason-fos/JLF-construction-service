@@ -20,11 +20,12 @@ h1 {
     font-size: 50px;
     text-align: center;
     text-decoration: underline;
+    padding-top: 10px;
 }
 
 header>div {
     background-color: #dddddd;
-    height: 125px;
+    height: 150px;
     width: 100%;
 }
 
@@ -170,4 +171,30 @@ header>div {
 
 #left-service>a:hover {
     text-decoration: underline #ffa500;
+}
+
+/* footer and free quote button link */
+
+#socials-div {
+    float: left;
+    height: 200px;
+    width: 50%;
+    background-color: #dddddd;
+    
+}
+
+#socials-div li {
+    float: left;
+    list-style-type: none;
+    margin: 100px 75px;
+
+}
+
+
+#free-quote-div {
+    float: right;
+    height: 200px;
+    width: 50%;
+    background-color: #dd8;
+
 }
