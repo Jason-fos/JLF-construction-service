@@ -177,24 +177,38 @@ header>div {
 
 #socials-div {
     float: left;
-    height: 200px;
+    height: 150px;
     width: 50%;
-    background-color: #dddddd;
+    background-color: #dd8;
     
 }
 
 #socials-div li {
     float: left;
     list-style-type: none;
-    margin: 100px 75px;
+    margin: 35px 75px 100px 125px;
+    font-size: 30px;
 
 }
 
 
 #free-quote-div {
     float: right;
-    height: 200px;
+    height: 150px;
     width: 50%;
-    background-color: #dd8;
+    background-color: #dddddd;
 
+}
+
+.footer-heading {
+    text-align: center;
+    margin-top: 10px;
+    text-decoration: underline;
+    font-size: 125%;
+}
+
+#quote-button {
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 30px;
 }
