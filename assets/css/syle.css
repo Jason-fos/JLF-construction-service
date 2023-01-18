@@ -220,3 +220,69 @@ header>div {
 
 /* our services page */
 
+#driveway-heading {
+    padding: 1rem 0 0 4rem;
+    text-decoration: underline;
+    background-color: rgba(255, 165, 0, 100);
+    font-size: 175%;
+}
+
+#driveways-text-div {
+    float: left;
+    width: 50%;
+    height: 600px;
+    font-size: 20px;
+    text-align: center;
+}
+
+#driveways-text-div p {
+    padding: 25px 5px 5px 5px;
+}
+
+#concrete-driveway2 {
+    width: 50%;
+    height: 50%;
+    float: right;
+    padding-top: 112px;
+}
+
+#workers-image {
+    width: 50%;
+    height: 50%;
+    float: left;
+    padding-top: 112px;
+}
+
+
+
+#driveways-image-div {
+    float: right;
+    width: 50%;
+    height: 600px;;
+}
+
+#driveway-1 {
+    float: right;
+    width: 50%;
+    height: 50%;
+    margin: 0;
+}
+
+#driveway-2 {
+    float: left;
+    width: 50%;
+    height: 50%;
+
+}
+
+#driveway-bollard {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#mosaic-image {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
