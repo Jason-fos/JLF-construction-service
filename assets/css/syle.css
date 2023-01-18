@@ -204,7 +204,7 @@ header>div {
     text-align: center;
     margin-top: 10px;
     text-decoration: underline;
-    font-size: 125%;
+    font-size: 28px;
 }
 
 #quote-button {
@@ -212,3 +212,9 @@ header>div {
     margin-top: 30px;
     font-size: 30px;
 }
+
+#quote-button:hover {
+    color: #ffa500;
+    text-decoration: underline;
+}
+
