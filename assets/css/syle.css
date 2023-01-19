@@ -356,3 +356,54 @@ header>div {
     float: left;
     margin-top: 61px;
 }
+
+/* about and contact us */
+ 
+/* about us section  */
+
+#about-us {
+    width: 50%;
+    height: auto;
+    background-color: #00cc00;
+    float: left;
+}
+
+#concrete-float-img {
+    width: 50%;
+    height: auto;
+    float: right;
+}
+
+#about-us p {
+    font-size: 125%;
+    padding-top: 1%;
+}
+
+#about-us>h2 {
+    text-align: center;
+    text-decoration: underline;
+    font-size: 175%;
+}
+
+#why-us-heading {
+    text-align: left;
+    margin: 2% 0 1% 10% ;
+    text-decoration: underline;
+    font-size: 150%;
+}
+
+#bullet-list li{
+    padding: 5px 0 5px 10px;
+    font-size: 125%;
+}
+
+#contact-div {
+    width: 100%;
+    height: auto;
+    background-color: #00c;
+    float: left;
+}
+
+#contact-div>h2 {
+    margin-left: 20%;
+}
