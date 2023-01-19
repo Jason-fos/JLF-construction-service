@@ -220,6 +220,7 @@ header>div {
 }
 
 /* our services page */
+ /* driveways and surfacing section */
 
 #driveway-heading {
     padding: 1rem 0 0 4rem;
@@ -234,7 +235,6 @@ header>div {
     height: 600px;
     font-size: 20px;
     text-align: center;
-    border: 1px solid #1a1a1a;
     background-color: rgb(255, 252, 80);
 }
 
@@ -254,6 +254,7 @@ header>div {
     height: 50%;
     float: left;
     margin-top: 60px;
+    
 }
 
 
@@ -275,7 +276,6 @@ header>div {
     float: left;
     width: 50%;
     height: 50%;
-
 }
 
 #driveway-bollard {
@@ -287,5 +287,27 @@ header>div {
 #mosaic-image {
     width: 50%;
     height: 50%;
+    float: left;
+}
+
+/* garden and outdoor spaces section */
+
+#garden-spaces-heading {
+    padding: 1rem 4rem 0 0;
+    text-decoration: underline;
+    background-color: #a200ff;
+    font-size: 175%;
+    text-align: right;
+}
+
+#garden-text-div {
+    width: 50%;
+    height: 600px;
+    float: right;
+}
+
+#garden-img-div {
+    width: 50%;
+    height: 600px;
     float: left;
 }
