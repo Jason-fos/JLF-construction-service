@@ -223,7 +223,7 @@ header>div {
  /* driveways and surfacing section */
 
 #driveway-heading {
-    padding: 1rem 0 0 4rem;
+    padding: 1% 0 0 10%;
     text-decoration: underline;
     background-color: #ffa500;
     font-size: 175%;
@@ -246,14 +246,14 @@ header>div {
     width: 50%;
     height: 50%;
     float: right;
-    margin-top: 60px;
+    margin-top: 61px;
 }
 
 #workers-image {
     width: 50%;
     height: 50%;
     float: left;
-    margin-top: 60px;
+    margin-top: 61px;
     
 }
 
@@ -293,7 +293,7 @@ header>div {
 /* garden and outdoor spaces section */
 
 #garden-spaces-heading {
-    padding: 1rem 4rem 0 0;
+    padding: 1% 10% 0 0;
     text-decoration: underline;
     background-color: #a200ff;
     font-size: 175%;
@@ -304,10 +304,55 @@ header>div {
     width: 50%;
     height: 600px;
     float: right;
+    font-size: 20px;
+    text-align: center;
+    background-color: rgb(255, 252, 80);
+}
+
+#garden-text-div p {
+    padding: 25px 5px 5px 5px;
 }
 
 #garden-img-div {
     width: 50%;
     height: 600px;
     float: left;
+}
+
+#pool-patio-img {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#paved-path-img1 {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#outside-pool-img2 {
+    width: 50%;
+    height: 50%;
+    float: left;
+}
+
+#table-patio-img {
+    width: 50%;
+    height: 50%;
+    float: right;
+}
+
+#cobble-path-img {
+    width: 50%;
+    height: 50%;
+    float: right;
+    margin-top: 61px;
+}
+
+#worker-tools-img {
+    width: 50%;
+    height: 50%;
+    float: left;
+    margin-top: 61px;
 }
