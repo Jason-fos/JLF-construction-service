@@ -56,7 +56,7 @@ header>div {
 #main-image {
     width: 100%;
     height: 1000px;
-    background: url(../images/high-end-paving.jpg) no-repeat center center;
+    background: url(../images/high-end-paving.jpg) no-repeat center center
 }
 
 #cover-text {
@@ -67,7 +67,7 @@ header>div {
     margin-top: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
-    position: absolute;    
+    position: absolute  
 }
 
 #cover-text>p {
@@ -406,4 +406,42 @@ header>div {
 
 #contact-div>h2 {
     margin-left: 20%;
+}
+
+/* quote form */
+
+#form-image {
+    width: 100%;
+    height: 600px;
+    background: url(/assets/images/rear-garden-paved-path2.jpg) no-repeat center;
+}
+
+#form-cover-div {
+    width: 30%;
+    height: auto;
+    background-color: rgba(17, 17, 17, 0.505);
+    text-align: center;
+    margin-left: 25%;
+    color: whitesmoke;
+    position: inherit;
+}
+
+#form-cover-div>h2 {
+    text-decoration: underline;
+    font-size: 175%;
+}
+
+#form-text {
+    padding: 10px 10px;
+    margin-bottom: 5px;
+    text-align: right;
+    font-size: 125%;
+}
+
+#form-text input {
+    padding-bottom: 15px;
+}
+
+textarea {
+    margin-top: 5px;
 }
