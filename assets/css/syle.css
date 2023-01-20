@@ -408,6 +408,11 @@ header>div {
     margin-left: 20%;
 }
 
+#map {
+    width: 100%;
+    height: auto;
+}
+
 /* quote form */
 
 #form-image {
