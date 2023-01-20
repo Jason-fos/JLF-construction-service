@@ -38,7 +38,7 @@ header>div {
     float: left;
     list-style-type: none;
     margin: 30px 125px;
-    padding-left: 25px;    
+    padding-left: 25px;
 }
 
 #nav-bar a {
@@ -67,7 +67,7 @@ header>div {
     margin-top: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
-    position: absolute  
+    position: absolute
 }
 
 #cover-text>p {
@@ -91,7 +91,7 @@ header>div {
 
 #left-service-image {
     height: 250px;
-    width: 250px;  
+    width: 250px;
     margin-left: 125px;
     margin-top: 25px;
     border-radius: 50%;
@@ -140,7 +140,7 @@ header>div {
 
 #right-service-image {
     height: 250px;
-    width: 250px;   
+    width: 250px;
     border-radius: 50%;
     margin-left: 125px;
     margin-top: 25px;
@@ -151,11 +151,11 @@ header>div {
     text-align: center;
     padding-top: 10px;
     margin-top: 50px;
-    font-size: 125%; 
+    font-size: 125%;
     font-weight: 600;
-    font-family: Merriweather, sans-serif; 
+    font-family: Merriweather, sans-serif;
     border: none;
-    color: whitesmoke;  
+    color: whitesmoke;
 }
 
 #right-service>a {
@@ -181,7 +181,7 @@ header>div {
     height: 150px;
     width: 50%;
     background-color: #dd8;
-    
+
 }
 
 #socials-div li {
@@ -220,7 +220,7 @@ header>div {
 }
 
 /* our services page */
- /* driveways and surfacing section */
+/* driveways and surfacing section */
 
 #driveway-heading {
     padding: 1% 0 0 10%;
@@ -235,7 +235,7 @@ header>div {
     height: 600px;
     font-size: 20px;
     text-align: center;
-    background-color: rgb(255, 252, 80);
+    background-color: #ffa500;
 }
 
 #driveways-text-div p {
@@ -254,7 +254,7 @@ header>div {
     height: 50%;
     float: left;
     margin-top: 61px;
-    
+
 }
 
 
@@ -295,7 +295,7 @@ header>div {
 #garden-spaces-heading {
     padding: 1% 10% 0 0;
     text-decoration: underline;
-    background-color: #a200ff;
+    background-color: #ffa500;
     font-size: 175%;
     text-align: right;
 }
@@ -306,7 +306,7 @@ header>div {
     float: right;
     font-size: 20px;
     text-align: center;
-    background-color: rgb(255, 252, 80);
+    background-color: #ffa500;
 }
 
 #garden-text-div p {
@@ -358,21 +358,16 @@ header>div {
 }
 
 /* about and contact us */
- 
+
 /* about us section  */
 
 #about-us {
-    width: 50%;
+    width: 60%;
     height: auto;
-    background-color: #00cc00;
     float: left;
+    text-align: center;
 }
 
-#concrete-float-img {
-    width: 50%;
-    height: auto;
-    float: right;
-}
 
 #about-us p {
     font-size: 125%;
@@ -386,33 +381,40 @@ header>div {
 }
 
 #why-us-heading {
-    text-align: left;
-    margin: 2% 0 1% 10% ;
+    padding: 10px;
     text-decoration: underline;
     font-size: 150%;
 }
 
-#bullet-list li{
+#list>li {
     padding: 5px 0 5px 10px;
     font-size: 125%;
+    text-align: left;
 }
 
 #contact-div {
-    width: 100%;
-    height: auto;
-    background-color: #00c;
-    float: left;
+    width: 40%;
+    height: 600px;
+    float: right;
+    font-size: 150%;
+
 }
 
 #contact-div>h2 {
-    margin-left: 20%;
+    text-decoration: underline;
+    text-align: center;
 }
 
 #map {
     width: 100%;
-    height: auto;
+    height: 250px;
 }
 
+#contact-details {
+    margin: 25px 0;
+    text-align: center;
+    border-spacing: 50px;
+}
 /* quote form */
 
 #form-image {
