@@ -287,14 +287,12 @@ h1 {
     width: 50%;
     height: 50%;
     float: right;
-    margin-top: 61px;
 }
 
 #workers-image {
     width: 50%;
     height: 50%;
     float: left;
-    margin-top: 61px;
 
 }
 
@@ -385,14 +383,12 @@ h1 {
     width: 50%;
     height: 50%;
     float: right;
-    margin-top: 61px;
 }
 
 #worker-tools-img {
     width: 50%;
     height: 50%;
     float: left;
-    margin-top: 61px;
 }
 
 /* about and contact us */
@@ -545,4 +541,172 @@ textarea {
         text-align: center;
         border-spacing: 20px;
     }
+}
+
+/* media querries for screen sizes 768px and below (tablets) */
+
+@media screen and (max-width:768px) {
+    #nav-bar li {
+        float: left;
+        list-style-type: none;
+        margin: 30px 30px;
+        padding-left: 25px;
+    }
+
+    .col-2 {
+        width: 20%;
+    }
+
+    #left-service-image {
+        height: 200px;
+        width: 200px;
+        margin-left: 30px;
+        border-radius: 50%;
+        background: url(/assets/images/black-white-mosaic.jpg);
+        margin-top: 25px;
+    }
+
+    #right-service-image {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 30px;
+        margin-top: 25px;
+        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+    }
+
+    .lr-service-text {
+        text-align: center;
+        padding-top: 10px;
+        margin-top: 25px;
+        font-size: 125%;
+        font-weight: 600;
+        font-family: Merriweather, sans-serif;
+        border: none;
+        color: whitesmoke;
+    }
+
+    #center-text-div p {
+        font-family: Merriweather, sans-serif;
+        font-size: 125%;
+        margin-top: 10px;
+    }
+
+    #about-us-button {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+
+    .footer-heading {
+        text-align: center;
+        margin-top: 10px;
+        text-decoration: underline;
+        font-size: 20px;
+    }
+
+    #socials-div li {
+        float: left;
+        list-style-type: none;
+        margin-left: 50px;
+        font-size: 28px;
+    }
+
+    #quote-button {
+        margin-left: 100px;
+        margin-top: 20px;
+        font-size: 28px;
+        margin-bottom: 10px;
+    }
+
+    #free-quote-div {
+        float: right;
+        height: auto;
+        background-color: #dddddd;
+    }
+
+    #socials-div {
+        float: left;
+        height: auto;
+        background-color: #dd8;
+    }
+    
+    #socials-div li {
+        float: left;
+        list-style-type: none;
+        margin-bottom: 15px;
+        margin-left: 35px;
+        font-size: 30px;
+    }
+
+    #driveway-heading {
+        padding: 1% 0 0 10%;
+        text-decoration: underline;
+        background-color: #ffa500;
+        font-size: 150%;
+    }
+
+    #driveways-text-div {
+        float: left;
+        height: auto;
+        font-size: 18px;
+        text-align: center;
+        background-color: #ffa500;
+    }
+
+    #driveways-image-div {
+        float: right;
+        height: 500px;
+    }
+
+    #concrete-driveway2 {
+        width: 50%;
+        height: 165px;
+        float: right;
+    }
+
+    #workers-image {
+        width: 50%;
+        height: 165px;
+        float: left;
+    }
+
+    #garden-spaces-heading {
+        padding: 1% 10% 0 0;
+        text-decoration: underline;
+        background-color: #ffa500;
+        font-size: 150%;
+        text-align: right;
+    }
+
+    #garden-text-div p {
+        padding: 5px 5px 11px 5px;
+        font-size: 18px;
+    }
+
+    #contact-details {
+        margin: 25px 0;
+        text-align: center;
+        border-spacing: 20px;
+        font-size: 20px;
+    }
+
+    #about-us {
+        height: auto;
+        float: left;
+        text-align: center;
+        width: 58.33%;
+        font-size: 14px;
+    }
+
+    #contact-div {
+        height: 600px;
+        float: right;
+        font-size: 100%;
+        width: 41.66%;
+    }
+
+    #form-cover-div {
+        width: 33.33%;
+    }
+
 }
