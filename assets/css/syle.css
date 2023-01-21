@@ -12,6 +12,21 @@ body {
     color: #1a1a1a;
 }
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
 /* logo and nav-bar */
 
 h1 {
@@ -24,10 +39,9 @@ h1 {
     padding-top: 10px;
 }
 
-header>div {
+#logo {
     background-color: #dddddd;
     height: 150px;
-    width: 100%;
 }
 
 #nav-bar {
@@ -54,20 +68,18 @@ header>div {
 /* home page image and cover text */
 
 #main-image {
-    width: 100%;
     height: 1000px;
-    background: url(../images/high-end-paving.jpg) no-repeat center center
+    background: url(../images/high-end-paving.jpg) no-repeat center center;
 }
 
 #cover-text {
     height: auto;
-    width: 250px;
     background-color: rgba(0, 204, 0, 60%);
     margin-left: 350px;
     margin-top: 250px;
     padding-top: 25px;
     padding-bottom: 25px;
-    position: absolute
+    position: absolute;
 }
 
 #cover-text>p {
@@ -82,28 +94,25 @@ header>div {
 
 
 #left-service {
-    width: 33%;
     height: 450px;
-    float: left;
     background-color: rgba(0, 115, 255, 70%);
-    display: block;
+    float: left;
+    /* clear: both; */
 }
 
 #left-service-image {
     height: 250px;
     width: 250px;
     margin-left: 125px;
-    margin-top: 25px;
     border-radius: 50%;
     background: url(/assets/images/black-white-mosaic.jpg);
+    margin-top: 25px;
 }
 
 #center-text-div {
-    width: 33%;
     height: 450px;
-    display: inline-block;
     text-align: center;
-    margin-left: 7px;
+    display: inline-block;
 }
 
 #center-text-div h2 {
@@ -131,11 +140,10 @@ header>div {
 }
 
 #right-service {
-    width: 33%;
     height: 450px;
-    float: right;
     background-color: rgba(0, 204, 0, 70%);
-    display: block;
+    float: right;
+    
 }
 
 #right-service-image {
@@ -179,7 +187,6 @@ header>div {
 #socials-div {
     float: left;
     height: 150px;
-    width: 50%;
     background-color: #dd8;
 
 }
@@ -196,7 +203,6 @@ header>div {
 #free-quote-div {
     float: right;
     height: 150px;
-    width: 50%;
     background-color: #dddddd;
 
 }
@@ -231,7 +237,6 @@ header>div {
 
 #driveways-text-div {
     float: left;
-    width: 50%;
     height: 600px;
     font-size: 20px;
     text-align: center;
@@ -261,7 +266,6 @@ header>div {
 
 #driveways-image-div {
     float: right;
-    width: 50%;
     height: 600px;
 }
 
@@ -301,7 +305,6 @@ header>div {
 }
 
 #garden-text-div {
-    width: 50%;
     height: 600px;
     float: right;
     font-size: 20px;
@@ -314,7 +317,6 @@ header>div {
 }
 
 #garden-img-div {
-    width: 50%;
     height: 600px;
     float: left;
 }
@@ -362,7 +364,6 @@ header>div {
 /* about us section  */
 
 #about-us {
-    width: 60%;
     height: auto;
     float: left;
     text-align: center;
@@ -387,13 +388,12 @@ header>div {
 }
 
 #list>li {
-    padding: 5px 0 5px 10px;
+    padding: 10px 0 5px 10px;
     font-size: 125%;
     text-align: left;
 }
 
 #contact-div {
-    width: 40%;
     height: 600px;
     float: right;
     font-size: 150%;
@@ -406,7 +406,6 @@ header>div {
 }
 
 #map {
-    width: 100%;
     height: 250px;
 }
 
@@ -452,3 +451,4 @@ header>div {
 textarea {
     margin-top: 5px;
 }
+
