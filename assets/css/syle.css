@@ -12,18 +12,53 @@ body {
     color: #1a1a1a;
 }
 
-.col-1 {width: 8.33%;}
-.col-2 {width: 16.66%;}
-.col-3 {width: 25%;}
-.col-4 {width: 33.33%;}
-.col-5 {width: 41.66%;}
-.col-6 {width: 50%;}
-.col-7 {width: 58.33%;}
-.col-8 {width: 66.66%;}
-.col-9 {width: 75%;}
-.col-10 {width: 83.33%;}
-.col-11 {width: 91.66%;}
-.col-12 {width: 100%;}
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
 
 
 
@@ -51,7 +86,7 @@ h1 {
 #nav-bar li {
     float: left;
     list-style-type: none;
-    margin: 30px 125px;
+    margin: 30px 100px;
     padding-left: 25px;
 }
 
@@ -143,7 +178,7 @@ h1 {
     height: 450px;
     background-color: rgba(0, 204, 0, 70%);
     float: right;
-    
+
 }
 
 #right-service-image {
@@ -194,7 +229,7 @@ h1 {
 #socials-div li {
     float: left;
     list-style-type: none;
-    margin: 35px 75px 100px 125px;
+    margin: 35px 50px 150px 35px;
     font-size: 30px;
 
 }
@@ -226,6 +261,7 @@ h1 {
 }
 
 /* our services page */
+
 /* driveways and surfacing section */
 
 #driveway-heading {
@@ -414,6 +450,7 @@ h1 {
     text-align: center;
     border-spacing: 50px;
 }
+
 /* quote form */
 
 #form-image {
@@ -452,3 +489,60 @@ textarea {
     margin-top: 5px;
 }
 
+/* media queries */
+
+/* screens 1024px and below */
+
+@media screen and (max-width:1024px) {
+    #nav-bar li {
+        float: left;
+        list-style-type: none;
+        margin: 30px 50px;
+        padding-left: 25px;
+    }
+
+    #left-service-image {
+        height: 250px;
+        width: 250px;
+        margin-left: 50px;
+        border-radius: 50%;
+        background: url(/assets/images/black-white-mosaic.jpg);
+        margin-top: 25px;
+    }
+
+    #right-service-image {
+        height: 250px;
+        width: 250px;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-top: 25px;
+        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+    }
+
+    #socials-div li {
+        float: left;
+        list-style-type: none;
+        margin-left: 75px;
+        font-size: 30px;
+    }
+
+    #quote-button {
+        margin-left: 160px;
+        margin-top: 30px;
+        font-size: 30px;
+    }
+
+    #driveways-text-div p {
+        padding: 17px 5px 5px 5px;
+    }
+
+    #garden-text-div p {
+        padding: 17px 5px 5px 5px;
+    }
+
+    #contact-details {
+        margin: 25px 0;
+        text-align: center;
+        border-spacing: 20px;
+    }
+}
