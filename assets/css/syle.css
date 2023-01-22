@@ -486,7 +486,22 @@ textarea {
     }
 
     #center-text-div {
-        font-size: 20px;
+        font-size: 16px;
+    }
+}
+
+/* screen 1280px wide */
+@media screen and (max-width:1280px) {
+    #nav-bar a {
+        padding-left: 0;
+    }
+
+    #left-service-image {
+        margin-left: 90px;
+    }
+
+    #right-service-image {
+        margin-left: 100px;
     }
 }
 
@@ -555,6 +570,11 @@ textarea {
 /* media querries for screen sizes 768px and below (tablets) */
 
 @media screen and (max-width:768px) {
+
+    #nav-bar a {
+        padding-left: 0;
+    }
+
     #nav-bar li {
         float: left;
         list-style-type: none;
@@ -713,6 +733,8 @@ textarea {
         width: 33.33%;
     }
 
+
+
 }
 
 /* media querries for 600px screen ()*/
@@ -805,6 +827,10 @@ textarea {
         padding: 9px 2px;
     }
 
+    /* #nav-bar a {
+        padding-left: 0;
+    } */
+
 
 }
 
@@ -813,6 +839,9 @@ textarea {
 
 @media screen and (max-width:320px) {
 
+    #nav-bar a {
+        padding-left: 0;
+    }
 
     #about-us {
         height: auto;
