@@ -132,7 +132,6 @@ h1 {
     height: 450px;
     background-color: rgba(0, 115, 255, 70%);
     float: left;
-    /* clear: both; */
 }
 
 #left-service-image {
@@ -162,16 +161,6 @@ h1 {
     font-family: Merriweather, sans-serif;
     font-size: 125%;
     margin-top: 30px;
-}
-
-#about-us-button {
-    font-size: 20px;
-    margin-top: 50px;
-
-}
-
-#about-us-button:hover {
-    color: orange;
 }
 
 #right-service {
@@ -229,7 +218,7 @@ h1 {
 #socials-div li {
     float: left;
     list-style-type: none;
-    margin: 50px 0px 0px 150px;
+    margin: 25px 0px 0px 150px;
     font-size: 30px;
 
 }
@@ -239,26 +228,21 @@ h1 {
     float: right;
     height: 150px;
     background-color: #dddddd;
+    text-align: center;
+}
 
+#free-quote-div a {
+    padding-top: 30px;
 }
 
 .footer-heading {
     text-align: center;
     margin-top: 10px;
-    text-decoration: underline;
+    text-decoration: none;
     font-size: 28px;
+    padding-top: 20px;
 }
 
-#quote-button {
-    margin-left: 300px;
-    margin-top: 30px;
-    font-size: 30px;
-}
-
-#quote-button:hover {
-    color: #ffa500;
-    text-decoration: underline;
-}
 
 /* our services page */
 
@@ -612,7 +596,8 @@ textarea {
     #socials-div li {
         float: left;
         list-style-type: none;
-        padding-bottom: 5px;
+        padding: 10px 45px;
+        margin: 0;
     }
 
     #quote-button {
@@ -626,6 +611,8 @@ textarea {
         float: right;
         height: auto;
         background-color: #dddddd;
+        padding-top: 25px;
+        padding-bottom: 34px;
     }
 
     #socials-div {
@@ -798,11 +785,7 @@ textarea {
         padding: 9px 2px;
     }
 
-    #quote-button {
-        margin: 5px 0 10px 25px;
-        font-size: 16px;
-        padding: 5px;
-    }
+
 }
 
 
@@ -839,6 +822,17 @@ textarea {
     font-size: 20px;
     margin: 0;
     padding-left: 25px;
+} 
+
+#socials-div {
+    float: left;
+    height: auto;
+    background-color: #dd8;
+    padding-bottom: 1px;
+}
+
+#free-quote-div {
+    padding-bottom: 19px;
 }
 
 .serv-img-grp1 {
