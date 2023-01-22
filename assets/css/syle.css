@@ -478,7 +478,7 @@ textarea {
     }
 
     #left-service-image {
-        margin-left: 150px;
+        margin-left: 140px;
     }
 
     #right-service-image {
@@ -827,13 +827,9 @@ textarea {
         padding: 9px 2px;
     }
 
-    /* #nav-bar a {
-        padding-left: 0;
-    } */
 
 
 }
-
 
 /* media querry for screen sizes 320px and less*/
 
