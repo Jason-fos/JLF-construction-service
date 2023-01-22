@@ -470,6 +470,26 @@ textarea {
 
 /* media queries */
 
+/* screen size 1600px wide and below */
+
+@media screen and (max-width:1600px) {
+    #nav-bar a {
+        padding-left: 30px;
+    }
+
+    #left-service-image {
+        margin-left: 150px;
+    }
+
+    #right-service-image {
+        margin-left: 135px;
+    }
+
+    #center-text-div {
+        font-size: 20px;
+    }
+}
+
 /* screens 1024px and below */
 
 @media screen and (max-width:1024px) {
@@ -485,7 +505,7 @@ textarea {
         width: 250px;
         margin-left: 50px;
         border-radius: 50%;
-        background: url(/assets/images/black-white-mosaic.jpg);
+        background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
 
@@ -500,7 +520,7 @@ textarea {
         border-radius: 50%;
         margin-left: 50px;
         margin-top: 25px;
-        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+        background: url(../images/outdoor-space-pool.jpg) no-repeat;
     }
 
     #socials-div li {
@@ -551,7 +571,7 @@ textarea {
         width: 200px;
         margin-left: 30px;
         border-radius: 50%;
-        background: url(/assets/images/black-white-mosaic.jpg);
+        background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
 
@@ -561,7 +581,7 @@ textarea {
         border-radius: 50%;
         margin-left: 30px;
         margin-top: 25px;
-        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+        background: url(../images/outdoor-space-pool.jpg) no-repeat;
     }
 
     .lr-service-text {
@@ -741,7 +761,7 @@ textarea {
         width: 200px;
         margin-left: 60px;
         border-radius: 50%;
-        background: url(/assets/images/black-white-mosaic.jpg);
+        background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
 
@@ -767,7 +787,7 @@ textarea {
         border-radius: 50%;
         margin-left: 50px;
         margin-top: 25px;
-        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+        background: url(../images/outdoor-space-pool.jpg) no-repeat;
     }
 
     .footer-heading {
@@ -794,78 +814,78 @@ textarea {
 @media screen and (max-width:320px) {
 
 
-#about-us {
-    height: auto;
-    text-align: center;
-    width: 100%;
-    font-size: 12px;
-    padding: 5px;
-}
+    #about-us {
+        height: auto;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
+        padding: 5px;
+    }
 
-#contact-div {
-    height: auto;
-    font-size: 100%;
-    width: 100%;
-    padding-top: 10px;
-}
+    #contact-div {
+        height: auto;
+        font-size: 100%;
+        width: 100%;
+        padding-top: 10px;
+    }
 
-#form-cover-div {
-    width: 75%;
-    font-size: 13px;
-    float: left;
-    margin: 0;
-}
+    #form-cover-div {
+        width: 75%;
+        font-size: 13px;
+        float: left;
+        margin: 0;
+    }
 
-#socials-div li {
-    float: left;
-    list-style-type: none;
-    font-size: 20px;
-    margin: 0;
-    padding-left: 25px;
-} 
+    #socials-div li {
+        float: left;
+        list-style-type: none;
+        font-size: 20px;
+        margin: 0;
+        padding-left: 25px;
+    }
 
-#socials-div {
-    float: left;
-    height: auto;
-    background-color: #dd8;
-    padding-bottom: 1px;
-}
+    #socials-div {
+        float: left;
+        height: auto;
+        background-color: #dd8;
+        padding-bottom: 1px;
+    }
 
-#free-quote-div {
-    padding-bottom: 19px;
-}
+    #free-quote-div {
+        padding-bottom: 19px;
+    }
 
-.serv-img-grp1 {
-    display: none;
-}
+    .serv-img-grp1 {
+        display: none;
+    }
 
-#driveways-image-div {
-    width: 0;
-    display: none;
-}
+    #driveways-image-div {
+        width: 0;
+        display: none;
+    }
 
-#driveways-text-div {
-    width: 100%;
-}
+    #driveways-text-div {
+        width: 100%;
+    }
 
-#driveway-heading {
-    text-align: center;
-    padding-left: 5px;
-}
+    #driveway-heading {
+        text-align: center;
+        padding-left: 5px;
+    }
 
-#garden-img-div {
-    width: 0;
-    display: none;
-}
+    #garden-img-div {
+        width: 0;
+        display: none;
+    }
 
-#garden-text-div {
-    width: 100%;
-    padding: 5px;
-    height: auto;
-}
+    #garden-text-div {
+        width: 100%;
+        padding: 5px;
+        height: auto;
+    }
 
-#garden-spaces-heading {
-    padding: 10px;
-    text-align: center;
-}
+    #garden-spaces-heading {
+        padding: 10px;
+        text-align: center;
+    }
 }
