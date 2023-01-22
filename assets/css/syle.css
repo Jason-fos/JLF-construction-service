@@ -229,7 +229,7 @@ h1 {
 #socials-div li {
     float: left;
     list-style-type: none;
-    margin: 35px 50px 150px 35px;
+    margin: 50px 0px 0px 150px;
     font-size: 30px;
 
 }
@@ -391,9 +391,8 @@ h1 {
     float: left;
 }
 
-/* about and contact us */
 
-/* about us section  */
+/* about and contact us */
 
 #about-us {
     height: auto;
@@ -506,6 +505,11 @@ textarea {
         margin-top: 25px;
     }
 
+    #about-us-button {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+
     #right-service-image {
         height: 250px;
         width: 250px;
@@ -518,7 +522,7 @@ textarea {
     #socials-div li {
         float: left;
         list-style-type: none;
-        margin-left: 75px;
+        margin: 35px 0px 10px 20%;
         font-size: 30px;
     }
 
@@ -539,7 +543,8 @@ textarea {
     #contact-details {
         margin: 25px 0;
         text-align: center;
-        border-spacing: 20px;
+        border-spacing: 16px;
+        font-size: 22px;
     }
 }
 
@@ -607,8 +612,7 @@ textarea {
     #socials-div li {
         float: left;
         list-style-type: none;
-        margin-left: 50px;
-        font-size: 28px;
+        padding-bottom: 5px;
     }
 
     #quote-button {
@@ -629,14 +633,7 @@ textarea {
         height: auto;
         background-color: #dd8;
     }
-    
-    #socials-div li {
-        float: left;
-        list-style-type: none;
-        margin-bottom: 15px;
-        margin-left: 35px;
-        font-size: 30px;
-    }
+
 
     #driveway-heading {
         padding: 1% 0 0 10%;
@@ -709,4 +706,172 @@ textarea {
         width: 33.33%;
     }
 
+}
+
+/* media querries for 600px screen ()*/
+
+@media screen and (max-width:600px) {
+
+    h1 {
+        font-size: 28px;
+    }
+
+    #nav-bar li {
+        float: left;
+        list-style-type: none;
+        margin: 0;
+        padding-top: 10px;
+        font-size: 18px;
+        padding-left: 45px;
+    }
+
+    #cover-text {
+        height: auto;
+        background-color: rgba(0, 204, 0, 60%);
+        margin-left: 50px;
+        margin-top: 200px;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        margin-right: 50px;
+        position: absolute;
+        width: auto;
+    }
+
+    #main-image {
+        height: 750px;
+        background: url(../images/high-end-paving.jpg) no-repeat center center;
+    }
+
+    #left-service {
+        height: 450px;
+        background-color: rgba(0, 115, 255, 70%);
+        float: left;
+        width: 100%;
+    }
+
+    #left-service-image {
+        height: 200px;
+        width: 200px;
+        margin-left: 60px;
+        border-radius: 50%;
+        background: url(/assets/images/black-white-mosaic.jpg);
+        margin-top: 25px;
+    }
+
+    #center-text-div {
+        height: 450px;
+        text-align: center;
+        width: 100%;
+        float: left;
+        padding: 10px;
+    }
+
+    #right-service {
+        height: 450px;
+        background-color: rgba(0, 204, 0, 70%);
+        float: right;
+        padding: 10px;
+        width: 100%;
+    }
+
+    #right-service-image {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+        margin-left: 50px;
+        margin-top: 25px;
+        background: url(/assets/images/outdoor-space-pool.jpg) no-repeat;
+    }
+
+    .footer-heading {
+        text-align: center;
+        text-decoration: underline;
+        font-size: 14px;
+        padding: 5px;
+    }
+
+
+    #socials-div li {
+        float: left;
+        list-style-type: none;
+        margin: 10px;
+        padding: 9px 2px;
+    }
+
+    #quote-button {
+        margin: 5px 0 10px 25px;
+        font-size: 16px;
+        padding: 5px;
+    }
+}
+
+
+/* media querry for screen sizes 320px and less*/
+
+@media screen and (max-width:320px) {
+
+
+#about-us {
+    height: auto;
+    text-align: center;
+    width: 100%;
+    font-size: 12px;
+    padding: 5px;
+}
+
+#contact-div {
+    height: auto;
+    font-size: 100%;
+    width: 100%;
+    padding-top: 10px;
+}
+
+#form-cover-div {
+    width: 75%;
+    font-size: 13px;
+    float: left;
+    margin: 0;
+}
+
+#socials-div li {
+    float: left;
+    list-style-type: none;
+    font-size: 20px;
+    margin: 0;
+    padding-left: 25px;
+}
+
+.serv-img-grp1 {
+    display: none;
+}
+
+#driveways-image-div {
+    width: 0;
+    display: none;
+}
+
+#driveways-text-div {
+    width: 100%;
+}
+
+#driveway-heading {
+    text-align: center;
+    padding-left: 5px;
+}
+
+#garden-img-div {
+    width: 0;
+    display: none;
+}
+
+#garden-text-div {
+    width: 100%;
+    padding: 5px;
+    height: auto;
+}
+
+#garden-spaces-heading {
+    padding: 10px;
+    text-align: center;
+}
 }
