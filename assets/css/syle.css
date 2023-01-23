@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Playfair+Display:wght@500&display=swap');
-
 * {
     margin: 0;
     padding: 0;
@@ -8,7 +6,7 @@
 }
 
 body {
-    font-family: Merriweather, sans-serif;
+    font-family: Merriweather, 'sans-serif';
     color: #1a1a1a;
 }
 
@@ -60,12 +58,8 @@ body {
     width: 100%;
 }
 
-
-
-/* logo and nav-bar */
-
 h1 {
-    font-family: Playfair+Display, sans-serif;
+    font-family: 'Playfair+Display', 'sans-serif';
     letter-spacing: 3px;
     color: #0073ff;
     font-size: 50px;
@@ -100,16 +94,14 @@ h1 {
     color: #00cc00;
 }
 
-/* home page image and cover text */
-
 #main-image {
     height: 1000px;
-    background: url(../images/high-end-paving.jpg) no-repeat center center;
+    background: url(../images/high-end-paving.jpg) center center no-repeat;
 }
 
 #cover-text {
     height: auto;
-    background-color: rgba(0, 204, 0, 60%);
+    background-color: rgb(0, 204, 0, 60%);
     margin-left: 350px;
     margin-top: 250px;
     padding-top: 25px;
@@ -121,16 +113,13 @@ h1 {
     font-size: 150%;
     font-weight: 500;
     color: white;
-    font-family: Merriweather, sans-serif;
+    font-family: Merriweather, 'sans-serif';
     text-align: center;
 }
 
-/* our services and what we do */
-
-
 #left-service {
     height: 450px;
-    background-color: rgba(0, 115, 255, 70%);
+    background-color: rgb(0, 115, 255, 70%);
     float: left;
 }
 
@@ -150,7 +139,7 @@ h1 {
 }
 
 #center-text-div h2 {
-    font-family: Playfair Display, sans-serif;
+    font-family: 'Playfair Display', 'sans-serif';
     text-decoration: underline;
     font-size: 30px;
     font-weight: 600;
@@ -158,16 +147,15 @@ h1 {
 }
 
 #center-text-div p {
-    font-family: Merriweather, sans-serif;
+    font-family: Merriweather, 'sans-serif';
     font-size: 125%;
     margin-top: 30px;
 }
 
 #right-service {
     height: 450px;
-    background-color: rgba(0, 204, 0, 70%);
+    background-color: rgb(0, 204, 0, 70%);
     float: right;
-
 }
 
 #right-service-image {
@@ -185,7 +173,7 @@ h1 {
     margin-top: 50px;
     font-size: 125%;
     font-weight: 600;
-    font-family: Merriweather, sans-serif;
+    font-family: Merriweather, 'sans-serif';
     border: none;
     color: whitesmoke;
 }
@@ -206,23 +194,18 @@ h1 {
     text-decoration: underline #ffa500;
 }
 
-/* footer and free quote button link */
-
 #socials-div {
     float: left;
     height: 150px;
     background-color: #dd8;
-
 }
 
 #socials-div li {
     float: left;
     list-style-type: none;
-    margin: 25px 0px 0px 150px;
+    margin: 25px 0 0 150px;
     font-size: 30px;
-
 }
-
 
 #free-quote-div {
     float: right;
@@ -242,11 +225,6 @@ h1 {
     font-size: 28px;
     padding-top: 20px;
 }
-
-
-/* our services page */
-
-/* driveways and surfacing section */
 
 #driveway-heading {
     padding: 1% 0 0 10%;
@@ -277,10 +255,7 @@ h1 {
     width: 50%;
     height: 50%;
     float: left;
-
 }
-
-
 
 #driveways-image-div {
     float: right;
@@ -311,8 +286,6 @@ h1 {
     height: 50%;
     float: left;
 }
-
-/* garden and outdoor spaces section */
 
 #garden-spaces-heading {
     padding: 1% 10% 0 0;
@@ -375,15 +348,11 @@ h1 {
     float: left;
 }
 
-
-/* about and contact us */
-
 #about-us {
     height: auto;
     float: left;
     text-align: center;
 }
-
 
 #about-us p {
     font-size: 125%;
@@ -412,7 +381,6 @@ h1 {
     height: 600px;
     float: right;
     font-size: 150%;
-
 }
 
 #contact-div>h2 {
@@ -430,18 +398,16 @@ h1 {
     border-spacing: 50px;
 }
 
-/* quote form */
-
 #form-image {
     width: 100%;
     height: 600px;
-    background: url(../images/rear-garden-paved-path2.jpg) no-repeat center;
+    background: url(../images/rear-garden-paved-path2.jpg) center no-repeat;
 }
 
 #form-cover-div {
     width: 30%;
     height: auto;
-    background-color: rgba(17, 17, 17, 0.505);
+    background-color: rgb(17, 17, 17, 0.505);
     text-align: center;
     margin-left: 25%;
     color: whitesmoke;
@@ -468,11 +434,9 @@ textarea {
     margin-top: 5px;
 }
 
-/* media queries */
+/* screen size 1600px and below */
 
-/* screen size 1600px wide and below */
-
-@media screen and (max-width:1600px) {
+@media screen and (max-width: 1600px) {
     #nav-bar a {
         padding-left: 30px;
     }
@@ -486,12 +450,14 @@ textarea {
     }
 
     #center-text-div {
-        font-size: 16px;
+        font-size: 125%;
     }
 }
+ 
+/* screen size 1280px and below */
 
-/* screen 1280px wide */
-@media screen and (max-width:1280px) {
+@media screen and (max-width: 1280px) {
+
     #nav-bar a {
         padding-left: 0;
     }
@@ -505,9 +471,10 @@ textarea {
     }
 }
 
-/* screens 1024px and below */
+/* screen size 1024px and below */
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width: 1024px) {
+
     #nav-bar li {
         float: left;
         list-style-type: none;
@@ -541,7 +508,7 @@ textarea {
     #socials-div li {
         float: left;
         list-style-type: none;
-        margin: 35px 0px 10px 20%;
+        margin: 35px 0 10px 20%;
         font-size: 30px;
     }
 
@@ -566,10 +533,9 @@ textarea {
         font-size: 22px;
     }
 }
+ /* screen size 768px and below */
 
-/* media querries for screen sizes 768px and below (tablets) */
-
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
 
     #nav-bar a {
         padding-left: 0;
@@ -617,7 +583,7 @@ textarea {
 
     #center-text-div p {
         font-family: Merriweather, sans-serif;
-        font-size: 125%;
+        font-size: 100%;
         margin-top: 10px;
     }
 
@@ -661,7 +627,6 @@ textarea {
         background-color: #dd8;
     }
 
-
     #driveway-heading {
         padding: 1% 0 0 10%;
         text-decoration: underline;
@@ -680,6 +645,7 @@ textarea {
     #driveways-image-div {
         float: right;
         height: 500px;
+        display: inline;
     }
 
     #concrete-driveway2 {
@@ -730,16 +696,24 @@ textarea {
     }
 
     #form-cover-div {
-        width: 33.33%;
+        width: 41.66%;
     }
 
+    #garden-text-div {
+        float: left;
+        display: inline;
+    }
 
-
+    #garden-img-div {
+        height: 545px;
+        float: left;
+        display: inline;
+    }
 }
 
-/* media querries for 600px screen ()*/
+/* screen size 600px and below */
 
-@media screen and (max-width:600px) {
+@media screen and (max-width: 600px) {
 
     h1 {
         font-size: 28px;
@@ -749,14 +723,16 @@ textarea {
         float: left;
         list-style-type: none;
         margin: 0;
-        padding-top: 10px;
+        padding-top: 10%;
         font-size: 18px;
-        padding-left: 45px;
+        padding-left: 5%;
     }
+    
+    
 
     #cover-text {
         height: auto;
-        background-color: rgba(0, 204, 0, 60%);
+        background-color: rgb(0, 204, 0, 60%);
         margin-left: 50px;
         margin-top: 200px;
         padding-top: 25px;
@@ -768,12 +744,12 @@ textarea {
 
     #main-image {
         height: 750px;
-        background: url(../images/high-end-paving.jpg) no-repeat center center;
+        background: url(../images/high-end-paving.jpg) center center no-repeat;
     }
 
     #left-service {
         height: 450px;
-        background-color: rgba(0, 115, 255, 70%);
+        background-color: rgb(0, 115, 255, 70%);
         float: left;
         width: 100%;
     }
@@ -781,11 +757,13 @@ textarea {
     #left-service-image {
         height: 200px;
         width: 200px;
-        margin-left: 60px;
+        margin-left: 24%;
         border-radius: 50%;
         background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
+    
+    
 
     #center-text-div {
         height: 450px;
@@ -797,7 +775,7 @@ textarea {
 
     #right-service {
         height: 450px;
-        background-color: rgba(0, 204, 0, 70%);
+        background-color: rgb(0, 204, 0, 70%);
         float: right;
         padding: 10px;
         width: 100%;
@@ -807,18 +785,16 @@ textarea {
         height: 200px;
         width: 200px;
         border-radius: 50%;
-        margin-left: 50px;
+        margin-left: 22%;
         margin-top: 25px;
         background: url(../images/outdoor-space-pool.jpg) no-repeat;
     }
-
     .footer-heading {
         text-align: center;
         text-decoration: underline;
         font-size: 14px;
         padding: 5px;
     }
-
 
     #socials-div li {
         float: left;
@@ -827,18 +803,77 @@ textarea {
         padding: 9px 2px;
     }
 
+    #center-text-div h2 {
+        font-size: 28px;
+    }
 
+    .serv-img-grp1 {
+        display: none;
+    }
 
+    #driveways-image-div {
+        width: 0;
+        display: none;
+    }
+
+    #driveways-text-div {
+        width: 100%;
+    }
+
+    #driveway-heading {
+        text-align: center;
+        padding-left: 5px;
+    }
+
+    #garden-img-div {
+        width: 0;
+        display: none;
+    }
+
+    #garden-text-div {
+        width: 100%;
+        padding: 5px;
+        height: auto;
+    }
+
+    #garden-spaces-heading {
+        padding: 10px;
+        text-align: center;
+    }
+
+    #about-us {
+        height: auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    #contact-div {
+        height: auto;
+        font-size: 100%;
+        width: 100%;
+    }
+
+    form-cover-div {
+        width: 75%;
+        font-size: 13px;
+        float: left;
+        margin: 0;
+    }
+
+    #form-cover-div {
+        width: 75%;
+    }
 }
 
-/* media querry for screen sizes 320px and less*/
 
-@media screen and (max-width:320px) {
+/* screen size 320px and below */
+
+@media screen and (max-width: 320px) {
 
     #nav-bar a {
         padding-left: 0;
+        font-size: 80%;
     }
-
     #about-us {
         height: auto;
         text-align: center;
@@ -878,6 +913,7 @@ textarea {
 
     #free-quote-div {
         padding-bottom: 19px;
+        padding-top: 5px;
     }
 
     .serv-img-grp1 {
@@ -912,5 +948,15 @@ textarea {
     #garden-spaces-heading {
         padding: 10px;
         text-align: center;
+    } 
+
+    #left-service-image {
+        margin-left: 20%;
     }
-}
+    
+    #right-service-image {
+        margin-left: 18%;
+    }
+    
+    
+} 
