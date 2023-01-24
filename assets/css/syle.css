@@ -350,9 +350,13 @@ h1 {
 
 #about-us {
     height: auto;
+    background-color: rgb(0, 204, 0, 0.80);
     float: left;
     text-align: center;
+    font-size: 125%;
 }
+
+
 
 #about-us p {
     font-size: 125%;
@@ -363,12 +367,15 @@ h1 {
     text-align: center;
     text-decoration: underline;
     font-size: 175%;
+    background-color: orange;
+    padding: 1.6%;
 }
 
 #why-us-heading {
     padding: 10px;
     text-decoration: underline;
     font-size: 150%;
+    background-color: orange;
 }
 
 #list>li {
@@ -378,14 +385,17 @@ h1 {
 }
 
 #contact-div {
-    height: 600px;
+    height: max-content;
     float: right;
     font-size: 150%;
+    background-color: #0073ff;
 }
 
 #contact-div>h2 {
+    padding: 3%;
     text-decoration: underline;
     text-align: center;
+    background-color: #ffa500;
 }
 
 #map {
@@ -393,9 +403,11 @@ h1 {
 }
 
 #contact-details {
-    margin: 25px 0;
     text-align: center;
-    border-spacing: 50px;
+    background-color: #0073ff;
+    padding: 27.5% 0;
+    font-size: 150%;
+    border-spacing: 10px;
 }
 
 #form-image {
@@ -405,13 +417,14 @@ h1 {
 }
 
 #form-cover-div {
-    width: 30%;
+    width: 33.33%;
     height: auto;
-    background-color: rgb(17, 17, 17, 0.505);
+    background-color: rgb(17, 17, 17, 0.80);
     text-align: center;
     margin-left: 25%;
     color: whitesmoke;
     position: inherit;
+    font-size: 22px;
 }
 
 #form-cover-div>h2 {
@@ -452,8 +465,12 @@ textarea {
     #center-text-div {
         font-size: 125%;
     }
+
+    #form-cover-div {
+        width: 41.66%;
+    }
 }
- 
+
 /* screen size 1280px and below */
 
 @media screen and (max-width: 1280px) {
@@ -468,6 +485,40 @@ textarea {
 
     #right-service-image {
         margin-left: 100px;
+    }
+
+    #contact-details {
+        text-align: center;
+        border-spacing: 50px;
+        background-color: #0073ff;
+        padding: 10% 10% 12% 0;
+        font-size: 150%;
+    }
+
+
+    #why-us-heading {
+        padding: 10px;
+        text-decoration: underline;
+        font-size: 150%;
+        background-color: orange;
+        margin-top: 3%;
+    }
+
+    #contact-div>h2 {
+        padding: 3%;
+        text-decoration: underline;
+        text-align: center;
+        background-color: #ffa500;
+        font-size: 125%;
+    }
+
+    #about-us {
+        height: auto;
+        background-color: rgb(0, 204, 0, 0.80);
+        float: left;
+        width: 58.33%;
+        text-align: center;
+        font-size: 110%;
     }
 }
 
@@ -527,13 +578,19 @@ textarea {
     }
 
     #contact-details {
-        margin: 25px 0;
+        margin: 0;
         text-align: center;
         border-spacing: 16px;
         font-size: 22px;
+        padding: 37.5% 0;
+    }
+
+    #contact-div {
+        width: 41.66%;
     }
 }
- /* screen size 768px and below */
+
+/* screen size 768px and below */
 
 @media screen and (max-width: 768px) {
 
@@ -674,10 +731,11 @@ textarea {
     }
 
     #contact-details {
-        margin: 25px 0;
+        margin: 0;
         text-align: center;
-        border-spacing: 20px;
-        font-size: 20px;
+        font-size: 22px;
+        padding: 44% 0;
+        border-spacing: 10px;
     }
 
     #about-us {
@@ -689,7 +747,7 @@ textarea {
     }
 
     #contact-div {
-        height: 600px;
+        height: auto;
         float: right;
         font-size: 100%;
         width: 41.66%;
@@ -697,6 +755,7 @@ textarea {
 
     #form-cover-div {
         width: 41.66%;
+        font-size: 16px;
     }
 
     #garden-text-div {
@@ -727,8 +786,8 @@ textarea {
         font-size: 18px;
         padding-left: 5%;
     }
-    
-    
+
+
 
     #cover-text {
         height: auto;
@@ -762,8 +821,8 @@ textarea {
         background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
-    
-    
+
+
 
     #center-text-div {
         height: 450px;
@@ -789,6 +848,7 @@ textarea {
         margin-top: 25px;
         background: url(../images/outdoor-space-pool.jpg) no-repeat;
     }
+
     .footer-heading {
         text-align: center;
         text-decoration: underline;
@@ -853,7 +913,7 @@ textarea {
         width: 100%;
     }
 
-    form-cover-div {
+    #form-cover-div {
         width: 75%;
         font-size: 13px;
         float: left;
@@ -862,6 +922,27 @@ textarea {
 
     #form-cover-div {
         width: 75%;
+    }
+
+    #form-cover-div {
+        width: 100%;
+        font-size: 16px;
+        float: left;
+        margin: 0;
+        height: -webkit-fill-available;
+    }
+
+    #form-cover-div>h2 {
+        text-decoration: underline;
+        font-size: 175%;
+        padding-top: 50px;
+    }
+
+    #contact-details {
+        text-align: center;
+        font-size: 22px;
+        border-spacing: 10px;
+        padding: 0;
     }
 }
 
@@ -874,27 +955,22 @@ textarea {
         padding-left: 0;
         font-size: 80%;
     }
+
     #about-us {
         height: auto;
         text-align: center;
         width: 100%;
         font-size: 12px;
-        padding: 5px;
+        padding: 0;
     }
 
     #contact-div {
         height: auto;
         font-size: 100%;
         width: 100%;
-        padding-top: 10px;
+        padding-top: 0;
     }
 
-    #form-cover-div {
-        width: 75%;
-        font-size: 13px;
-        float: left;
-        margin: 0;
-    }
 
     #socials-div li {
         float: left;
@@ -948,15 +1024,15 @@ textarea {
     #garden-spaces-heading {
         padding: 10px;
         text-align: center;
-    } 
+    }
 
     #left-service-image {
         margin-left: 20%;
     }
-    
+
     #right-service-image {
         margin-left: 18%;
     }
-    
-    
-} 
+
+
+}
