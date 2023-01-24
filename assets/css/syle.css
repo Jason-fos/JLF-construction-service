@@ -379,7 +379,7 @@ h1 {
 }
 
 #list>li {
-    padding: 10px 0 5px 10px;
+    padding: 0.58rem;
     font-size: 125%;
     text-align: left;
 }
@@ -405,7 +405,7 @@ h1 {
 #contact-details {
     text-align: center;
     background-color: #0073ff;
-    padding: 27.5% 0;
+    padding: 30% 0;
     font-size: 150%;
     border-spacing: 10px;
 }
@@ -581,8 +581,8 @@ textarea {
         margin: 0;
         text-align: center;
         border-spacing: 16px;
-        font-size: 22px;
-        padding: 37.5% 0;
+        font-size: 125%;
+        padding: 31% 0;
     }
 
     #contact-div {
@@ -733,9 +733,9 @@ textarea {
     #contact-details {
         margin: 0;
         text-align: center;
-        font-size: 22px;
-        padding: 44% 0;
-        border-spacing: 10px;
+        font-size: 150%;
+        padding: 37% 0;
+        border-spacing: 1em;
     }
 
     #about-us {
