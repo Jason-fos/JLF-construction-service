@@ -457,7 +457,7 @@ textarea {
 
 #error-image {
     height: auto;
-    background: url(../images/error-image.jpg);
+    /* background: url(../images/error-image.jpg); */
 }
 
 /* screen size 1600px and below */
