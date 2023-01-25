@@ -354,6 +354,7 @@ h1 {
     height: 50%;
     float: left;
 }
+
 /* about us page */
 /* about us section */
 #about-us {
@@ -389,6 +390,7 @@ h1 {
     font-size: 125%;
     text-align: left;
 }
+
 /* contact us section*/
 #contact-div {
     height: max-content;
@@ -415,6 +417,7 @@ h1 {
     font-size: 150%;
     border-spacing: 10px;
 }
+
 /* quote form */
 #form-image {
     width: 100%;
@@ -463,7 +466,8 @@ textarea {
 .error-text {
     font-size: 150%;
     text-align: center;
-} 
+}
+
 /* screen size 1600px and below */
 
 @media screen and (max-width: 1600px) {
@@ -613,7 +617,7 @@ textarea {
 
 /* screen size 768px and below */
 
- @media screen and (max-width: 768px) { 
+@media screen and (max-width: 768px) {
 
     #nav-bar a {
         padding-left: 0;
@@ -789,7 +793,7 @@ textarea {
         float: left;
         display: inline;
     }
-} 
+}
 
 /* screen size 600px and below */
 
@@ -842,8 +846,6 @@ textarea {
         background: url(../images/black-white-mosaic.jpg);
         margin-top: 25px;
     }
-
-
 
     #center-text-div {
         height: 450px;
@@ -950,7 +952,6 @@ textarea {
         font-size: 16px;
         float: left;
         margin: 0;
-        height: -webkit-fill-available;
     }
 
     #form-cover-div>h2 {
