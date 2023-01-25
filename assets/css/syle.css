@@ -447,6 +447,11 @@ textarea {
     margin-top: 5px;
 }
 
+/* 404 error page */
+
+#error-image {
+    height: auto;
+}
 /* screen size 1600px and below */
 
 @media screen and (max-width: 1600px) {
