@@ -233,7 +233,7 @@ h1 {
 /* our services page */
 /* driveways and surfacing section */
 #driveway-heading {
-    padding: 1% 0 0 10%;
+    padding: 15px;
     text-decoration: underline;
     background-color: #ffa500;
     font-size: 175%;
@@ -242,7 +242,7 @@ h1 {
 #driveways-text-div {
     float: left;
     height: 600px;
-    font-size: 20px;
+    font-size: 150%;
     text-align: center;
     background-color: #ffa500;
 }
@@ -295,17 +295,17 @@ h1 {
 
 /* garden spaces section */
 #garden-spaces-heading {
-    padding: 1% 10% 0 0;
+    padding: 10px;
     text-decoration: underline;
     background-color: #ffa500;
     font-size: 175%;
-    text-align: right;
+    text-align: center;
 }
 
 #garden-text-div {
     height: 600px;
-    float: right;
-    font-size: 20px;
+    float: left;
+    font-size: 150%;
     text-align: center;
     background-color: #ffa500;
 }
@@ -316,7 +316,7 @@ h1 {
 
 #garden-img-div {
     height: 600px;
-    float: left;
+    float: right;
 }
 
 #pool-patio-img {
