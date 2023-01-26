@@ -76,6 +76,7 @@ h1 {
 
 #nav-bar {
     font-size: 125%;
+    font-weight: bold;
 }
 
 #nav-bar li {
@@ -172,9 +173,8 @@ h1 {
 
 .lr-service-text {
     text-align: center;
-    padding-top: 10px;
-    margin-top: 50px;
-    font-size: 125%;
+    padding: 50px 3px 3px 3px;
+    font-size: 150%;
     font-weight: 600;
     font-family: Merriweather, 'sans-serif';
     border: none;
@@ -413,9 +413,13 @@ h1 {
 #contact-details {
     text-align: center;
     background-color: #0073ff;
-    padding: 30% 0;
+    padding: 19% 0;
     font-size: 150%;
-    border-spacing: 10px;
+    list-style-type: none;
+}
+
+#contact-details li {
+    padding: 5% 0 5% 0;
 }
 
 /* quote form */
@@ -469,7 +473,6 @@ textarea {
 }
 
 /* screen size 1600px and below */
-
 @media screen and (max-width: 1600px) {
     #nav-bar a {
         padding-left: 30px;
@@ -490,11 +493,18 @@ textarea {
     #form-cover-div {
         width: 41.66%;
     }
+
+    #contact-details {
+        text-align: center;
+        background-color: #0073ff;
+        padding: 19% 0;
+        font-size: 150%;
+        list-style-type: none;
+    }
 }
 
 /* screen size 1280px and below */
-
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1360px) {
 
     #nav-bar a {
         padding-left: 0;
@@ -509,11 +519,7 @@ textarea {
     }
 
     #contact-details {
-        text-align: center;
-        border-spacing: 50px;
-        background-color: #0073ff;
-        padding: 10% 0% 7.5% 0;
-        font-size: 150%;
+        padding: 15% 0;
     }
 
     #why-us-heading {
@@ -547,9 +553,8 @@ textarea {
     }
 }
 
-/* screen size 1024px and below */
-
-@media screen and (max-width: 1024px) {
+/* screen size 1240px and below */
+@media screen and (max-width: 1240px) {
 
     #nav-bar li {
         float: left;
@@ -605,9 +610,8 @@ textarea {
     #contact-details {
         margin: 0;
         text-align: center;
-        border-spacing: 16px;
         font-size: 125%;
-        padding: 31% 0;
+        padding: 20.5% 0;
     }
 
     #contact-div {
@@ -615,9 +619,19 @@ textarea {
     }
 }
 
-/* screen size 768px and below */
+/* screen size 1024px and below*/
+@media screen and (max-width: 1024px) {
 
-@media screen and (max-width: 768px) {
+    #contact-details {
+        margin: 0;
+        text-align: center;
+        font-size: 125%;
+        padding: 27.5% 0;
+    }
+}
+
+/* screen size 850px and below */
+@media screen and (max-width: 850px) {
 
     #nav-bar a {
         padding-left: 0;
@@ -700,7 +714,7 @@ textarea {
         height: auto;
         background-color: #dddddd;
         padding-top: 25px;
-        padding-bottom: 34px;
+        padding-bottom: 47px;
     }
 
     #socials-div {
@@ -795,9 +809,8 @@ textarea {
     }
 }
 
-/* screen size 600px and below */
-
-@media screen and (max-width: 600px) {
+/* screen size 650px and below */
+@media screen and (max-width: 650px) {
 
     h1 {
         font-size: 28px;
@@ -808,11 +821,9 @@ textarea {
         list-style-type: none;
         margin: 0;
         padding-top: 10%;
-        font-size: 18px;
+        font-size: 17px;
         padding-left: 5%;
     }
-
-
 
     #cover-text {
         height: auto;
@@ -968,10 +979,8 @@ textarea {
     }
 }
 
-
-/* screen size 320px and below */
-
-@media screen and (max-width: 320px) {
+/* screen size 360px and below */
+@media screen and (max-width: 360px) {
 
     #nav-bar a {
         padding-left: 0;
@@ -993,7 +1002,6 @@ textarea {
         padding-top: 0;
     }
 
-
     #socials-div li {
         float: left;
         list-style-type: none;
@@ -1010,7 +1018,7 @@ textarea {
     }
 
     #free-quote-div {
-        padding-bottom: 19px;
+        padding-bottom: 37px;
         padding-top: 5px;
     }
 
@@ -1055,12 +1063,9 @@ textarea {
     #right-service-image {
         margin-left: 18%;
     }
-
-
 }
 
 /* screen sizes below 300px */
-
 @media screen and (max-width: 300px) {
     #free-quote-div {
         padding-bottom: 13%;
