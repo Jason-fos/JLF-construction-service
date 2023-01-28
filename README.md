@@ -77,7 +77,7 @@
 
 #### Returning User
 5. As a returning user, I want to contact the company.
-6. As a returnign user, I want to arrange a quote.
+6. As a returning user, I want to arrange a quote.
 
 #### Site Owner 
 7. As the site owner, I want users to be able to contact us easily.
@@ -111,3 +111,42 @@ The website consists of four separate pages:
 - An our services page consisting of images and information detailing the services provided.
 - An about us page with a contact us section.
 - A free quote (form) page which opens in a new tab.
+
+### Wireframes
+
+<details><summary>Home</summary>
+<img src="docs/wireframes/homepage-desktop.png">
+<img src="docs/wireframes/homepage-ipad.png">
+<img src="docs/wireframes/homepage-iphone.png">
+</details>
+<details><summary>Our services</summary>
+<img src="docs/wireframes/our-services-desktop.png">
+<img src="docs/wireframes/our-services-ipad.png">
+<img src="docs/wireframes/our-services-iphone.png">
+</details>
+<details><summary>About us</summary>
+<img src="docs/wireframes/about-us-desktop.png">
+<img src="docs/wireframes/about-us-ipad.png">
+<img src="docs/wireframes/about-us-iphone.png">
+</details>
+<details><summary>Free Quote</summary>
+<img src="docs/wireframes/quote-form-desktop.png">
+<img src="docs/wireframes/quote-form-ipad.png">
+<img src="docs/wireframes/quote-form-iphone.png">
+</details>
+
+## Technologies Used
+
+### Languages
+- HTML
+- CSS
+
+### Frameworks & Tools
+- Git
+- GitHub
+- Gitpod
+- Balsamiq
+- Google Fonts
+- Adobe Color
+- Font Awsome
+- Favicon<span>.</span>io
