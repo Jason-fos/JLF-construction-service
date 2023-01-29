@@ -105,9 +105,9 @@ Playfair+Display was used for the logo and headings as it looks good in a larger
 Merriweather was used for the body text as it compliments the headings nicely and is highly readable on screen, both have back up font of sans-serif as its also easily readable on screen.
 
 ### Structure
-The page is structured in a recognizable, user friendly and easy to learn way. on arriving to the site the user sees a logo with a familiar type of navigation bar underneath it, with the links spaced out under the logo that highlight on mouse over.
+The page is structured in a recognizable, user friendly and easy to learn way. on arriving to the site the user sees a logo with a navigation bar, with the links spaced out under the logo that highlight on mouse over.
 The website consists of four separate pages: 
-- A homepage with a sections of What we do, small paragraph explaining what we do with images and links to our services page.
+- A homepage with a section of What we do, small paragraph explaining what we do with images and links to our services page.
 - An our services page consisting of images and information detailing the services provided.
 - An about us page with a contact us section.
 - A free quote (form) page which opens in a new tab.
@@ -181,6 +181,7 @@ The page consists of four pages and nine features
 ![What we do](/docs/features/what-we-do-image.png)
 
 ### Footer
+- Features on all 4 pages.
 - Contains links to social media accounts allowing users to find more info and images about the company.
 - Link to the free quote form in the footer allowing the user to start a quote.
 - User stories covered: 1, 6, 9
@@ -266,4 +267,58 @@ Google Lighthouse in Google Chrome Developer Tools was used to test the performa
 </details>
 <details><summary>Free quote form</summary>
 <img src="docs/validation/lighthouse-quote-form.png">
+</details>
+
+### Performing tests on various devices 
+The website was tested on the following devices:
+- Samsung A5
+- Acer Aspire 3
+
+In addition, the website was tested using Google Chrome Developer Tools Device Toggeling option for all available device options.
+
+### Browser compatability
+The website was tested on the following browsers:
+- Google Chrome
+- Microsoft Egde
+
+### Testing user stories
+1. As a first time user, I want to find out more about the company.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About us | Click the About us link from the navigation menu | Locate information about the company | Works as expected |
+| Footer - Socials | On any page scroll down to the footer | Find social media accounts | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story1.png">
+<img src="docs/user-story-testing/user-story1about.png">
+<img src="docs/user-story-testing/user-story1scroll.png">
+<img src="docs/user-story-testing/user-story1footer.png">
+</details>
+
+2. As a first time user, I want to find out what services are provided.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our services | Click the Our services link from the navigation menu | Locate information about the services provided | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story2.png">
+<img src="docs/user-story-testing/user-story2-servpage.png">
+</details>
+
+3.  As a first time user, I want to find out where the company is based.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About us, Contact us | Click the About us link from the navigation menu | Locate information about location of the company | Works as expected |
+| Map | Click the About us link from the navigation menu, scroll down to map | Find company address on a map | Works as expected |
+
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story3.png">
+<img src="docs/user-story-testing/user-story3-mid.png">
+<img src="docs/user-story-testing/user-story3-map.png">
+
 </details>
