@@ -155,57 +155,68 @@ The website consists of four separate pages:
 The page consists of four pages and nine features
 
 ### Logo and Navigation Bar
-- Featured on all five pages
-- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
-links to the Homepage, About page, Menu page, Gallery and Contact us page
-- It allows users to easily navigate the page
-- The link for the page the user is currently on is highlighted 
+- Featured on all four pages
+- The navbar is responsive and changes to suit the users screen.
+- It includes links to the Homepage, Our services page, About us page and Free quote form page.
+- It allows users to easily navigate around the page.
+- The links highlight and underline green on mouseover so user knows its interactive. 
 
-![Logo and navbar]()
+![Logo and navbar](/docs/features/logo-navbar-image.png)
 
-### Home-page-image
-- Introduces the user to the restaurant with a small three picture slide show
-- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+### Home Page Image
+- Introduces the user to the page with an eye cathcing image of a high end property and driveway.
+- Allows the user to see very briefly the style and type of work done by the company.
+- User stories covered: 8, 9
 
-![home page image]()
+![home page image](/docs/features/home-page-image.png)
 
-### What we do
-- Allowes the user to see upcoming events or any news about the restaurant
-- User stories covered: 13
+### What We Do
+- Allows users to read a brief description of some of the services provided as well as a brief intro into the company.
+- There is an image each of some surfacing materials and a rear garden with a swimming pool so users can see a small image of 
+  services provided.
+- There are 3 links, 1 for driveways and surfacing services, 1 for garden and outdoor spaces services and another for the about
+  us section.  
+- User stories covered: 1, 2, 3, 8, 9
 
-![What we do]()
+![What we do](/docs/features/what-we-do-image.png)
 
 ### Footer
-- Allowes users to see what meal-deal is available for the upcoming Sunday
-- User stories covered: 5
+- Contains links to social media accounts allowing users to find more info and images about the company.
+- Link to the free quote form in the footer allowing the user to start a quote.
+- User stories covered: 1, 6, 9
 
-![footer]()
+![footer](/docs/features/footer-image.png)
 
-### Our-services
-- Featured on all five pages
-- Consists of three seperate sections: contact information, opening times, and social media links
-- User stories covered: 1, 6, 7, 10, 15
+### Our Services
+- Contains text detailing the services and works provided clearly to the user.
+- Contains images to show the user the quality of works provided
+- User stories covered: 2, 4, 8, 9
 
-![our services]()
+![our services](/docs/features/our-services-images2.png)
+![our services](/docs/features/our-services-images.png)
+
 
 ### About Us
-- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
-- User stories covered: 3, 14
+- Gives a description of the company, its qualities and ideals so the user can better understand the company.
+- User stories covered: 1, 3, 9
 
-![About Us]()
+![About Us](/docs/features/about-us-image.png)
 
-### Contact us
-- Features a few reviews left by the restaurants customers on social media
-- User stories covered: 3
+### Contact Us
+- Features clear information for users to contact the company.
+- User stories covered: 5, 7
 
-![contact us]()
+![contact us](/docs/features/contact-us-image.png)
 
-### Embedded google map
-- Features a short bio of the chef with an image of the chef on the left side
-- User stories covered: 11
+### Embedded Google Map
+- Embedded google map providing location of the company to the user.
+- User stories covered: 3, 7
 
-![embedded google map]()
+![embedded google map](/docs/features/map-image.png)
 
-### Free quote form
+### Free Quote Form
+- Allows the user to arrange a free quote for the service they are wanting.
+- User stories covered: 6
 
-![free quote form]()
+![free quote form](/docs/features/quote-form-image.png)
+
