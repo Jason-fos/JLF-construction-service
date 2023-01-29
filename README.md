@@ -376,7 +376,7 @@ The website was tested on the following browsers:
 | Home page image | None | Attract users attention | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story8.png">
+<img src="docs/user-story-testing/user-story8-home-image.png">
 </details>
 
 9. As the site owner, I want to advertise and promote the companies qualities.
@@ -424,7 +424,7 @@ You can clone the repository by following these steps:
 - All images taken from pexels.com
   
 ### Code
-- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+- 404 page was built using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
 
 ## Acknowledgements
 I would like to take the opportunity to thank:
