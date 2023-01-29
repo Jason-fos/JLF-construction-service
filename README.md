@@ -330,7 +330,7 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story4.png">
 <img src="docs/user-story-testing/user-story4-servpage.png">
 <img src="docs/user-story-testing/user-story4-scroll.png">
-<img src="docs/user-story-testing/user-story4-footer.png">
+<img src="docs/user-story-testing/user-story4-socials.png">
 </details>
 
 5. As a returning user, I want to contact the company.
@@ -388,8 +388,6 @@ The website was tested on the following browsers:
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story9-home.png">
 <img src="docs/user-story-testing/user-story9-about.png">
-<img src="docs/user-story-testing/user-story9.png">
-<img src="docs/user-story-testing/user-story9-what-we-do.png">
 </details>
 
 ## Bugs
