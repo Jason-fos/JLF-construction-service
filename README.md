@@ -223,7 +223,7 @@ The page consists of four pages and nine features
 ## Validation
 
 ### HTML Validation
-The W3C Markup Validation Service was used to validate the HTML of the website, entire site passed with 0 errors or w
+The W3C Markup Validation Service was used to validate the HTML of the website, entire site passed with 0 errors or warnings.
 <details><summary>Entire site</summary>
 <img src="docs/validation/w3c-html-validation.png">
 </details>
@@ -391,3 +391,45 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story9.png">
 <img src="docs/user-story-testing/user-story9-what-we-do.png">
 </details>
+
+## Bugs
+
+| **Bug** | **Fix** |
+| ----------- | ----------- |
+| None of the images load on page | Change all file paths to absolute paths |
+| favicon icon not loading | Change file path to absolute path |
+| Navbar links overflow on xs screen | Add a media query to remove the left margin and reduce left padding of the li elements in the navbar on xs screen |
+
+## Deployment
+The website was deployed using GitHub Pages by following these steps:
+1. In the GitHub repository navigate to the Settings tab
+2. On the left hand menu select Pages
+3. For the source select Branch: master
+4. After the webpage refreshes automaticaly you will see a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+
+You can fork the repository by following these steps:
+1. Go to the GitHub repository
+2. Click on Fork button in upper right hand corner
+
+You can clone the repository by following these steps:
+1. Go to the GitHub repository 
+2. Locate the Code button above the list of files and click it 
+3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard
+4. Open Git Bash
+5. Change the current working directory to the one where you want the cloned directory
+6. Type git clone and paste the URL from the clipboard ($ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY)
+7.Press Enter to create your local clone.
+
+## Credits
+
+### Media
+- All images taken from pexels.com
+  
+### Code
+- 404 page was build using description on [GitHub Docs](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-custom-404-page-for-your-github-pages-site)
+
+## Acknowledgements
+I would like to take the opportunity to thank:
+- My mentor Mo Shami for his advice, guidance and support.
+- My partner and friends for helping with testing and giving valuable feedback.
+- Code institute as a whole for the support they provide.
