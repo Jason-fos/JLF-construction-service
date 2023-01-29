@@ -220,3 +220,50 @@ The page consists of four pages and nine features
 
 ![free quote form](/docs/features/quote-form-image.png)
 
+## Validation
+
+### HTML Validation
+The W3C Markup Validation Service was used to validate the HTML of the website, entire site passed with 0 errors or w
+<details><summary>Entire site</summary>
+<img src="docs/validation/w3c-html-validation.png">
+</details>
+
+### CSS Validation
+The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
+<details><summary>Entire site</summary>
+<img src="docs/validation/w3c-css-validation.png">
+</details>
+
+### Accessibility
+The WAVE WebAIM web accessibility evaluation tool was used to ensure the website met high accessibility standards. All pages had 4 contrast errors due to the font of the navbar links being too small or not bold enough. Easily fixed by making link headings bold.
+<details><summary>errors</summary>
+<img src="docs/validation/accessibility-errors.png">
+</details>
+<details><summary>Home</summary>
+<img src="docs/validation/wave-home.png">
+</details>
+<details><summary>Our services</summary>
+<img src="docs/validation/wave-our-services.png">
+</details>
+<details><summary>About us</summary>
+<img src="docs/validation/wave-about-us.png">
+</details>
+<details><summary>Free quote form</summary>
+<img src="docs/validation/wave-quote-form.png">
+</details>
+
+### Performance 
+Google Lighthouse in Google Chrome Developer Tools was used to test the performance of the website. 
+
+<details><summary>Home</summary>
+<img src="docs/validation/lighthouse-homepage.png">
+</details>
+<details><summary>Our services</summary>
+<img src="docs/validation/lighthouse-our-services.png">
+</details>
+<details><summary>About us</summary>
+<img src="docs/validation/lighthouse-about-us.png">
+</details>
+<details><summary>Free quote form</summary>
+<img src="docs/validation/lighthouse-quote-form.png">
+</details>
