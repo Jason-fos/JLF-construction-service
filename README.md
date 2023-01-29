@@ -3,7 +3,7 @@
 
 ![Mockup image](docs/am-i-responsive-image.png)
 
-[Live webpage]( https://jason-fos.github.io/JLF-construction-services/)
+[Live webpage](https://jason-fos.github.io/JLF-construction-services/)
 
 ## Table of Content
 
