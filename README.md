@@ -3,7 +3,7 @@
 
 ![Mockup image](docs/am-i-responsive-image.png)
 
-[Live webpage]
+[Live webpage](https://jason-fos.github.io/JLF-construction-services/)
 
 ## Table of Content
 
@@ -405,7 +405,7 @@ The website was deployed using GitHub Pages by following these steps:
 1. In the GitHub repository navigate to the Settings tab
 2. On the left hand menu select Pages
 3. For the source select Branch: master
-4. After the webpage refreshes automaticaly you will see a ribbon on the top saying: "Your site is published at https://4n4ru.github.io/CI_MS1_BodelschwingherHof/"
+4. After the webpage refreshes automaticaly you will see a ribbon on the top saying: "Your site is published at https://jason-fos.github.io/JLF-construction-services/
 
 You can fork the repository by following these steps:
 1. Go to the GitHub repository
