@@ -255,7 +255,7 @@ The W3C Markup Validation Service was used to validate the HTML of the website, 
 
 ### CSS Validation
 The W3C Jigsaw CSS Validation Service was used to validate the CSS of the website.
-<details><summary>Entire site</summary>
+<details><summary>CSS file (style.css)</summary>
 <img src="docs/validation/w3c-css-validation.png">
 </details>
 
@@ -412,7 +412,7 @@ The website was tested on the following browsers:
 | 404 page | Click any link in navigation bar to return to site | Prevent user from using browser back arrows | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/404page.png.png">
+<img src="docs/user-story-testing/404page.png">
 </details>
 
 ## Bugs
