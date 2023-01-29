@@ -154,7 +154,7 @@ h1 {
 
 #center-text-div p {
     font-family: Merriweather, 'sans-serif';
-    font-size: 125%;
+    font-size: 110%;
     margin-top: 30px;
 }
 
@@ -716,7 +716,7 @@ textarea {
         height: auto;
         background-color: #dddddd;
         padding-top: 25px;
-        padding-bottom: 47px;
+        padding-bottom: 34px;
     }
 
     #socials-div {
@@ -742,7 +742,7 @@ textarea {
 
     #driveways-image-div {
         float: right;
-        height: 500px;
+        height: 550px;
         display: inline;
     }
 
@@ -804,8 +804,8 @@ textarea {
     }
 
     #garden-img-div {
-        height: 545px;
-        float: left;
+        height: 590px;
+        float: right;
         display: inline;
     }
 }
@@ -825,6 +825,7 @@ textarea {
         font-size: 17px;
         padding-left: 3%;
     }
+
     #cover-text {
         height: auto;
         background-color: rgb(0, 204, 0, 60%);
@@ -894,7 +895,8 @@ textarea {
         float: left;
         list-style-type: none;
         margin: 10px;
-        padding: 9px 2px;
+        padding: 8px 10px 5px 10px;
+        font-size: 20px;
     }
 
     #center-text-div h2 {
@@ -1007,7 +1009,8 @@ textarea {
         list-style-type: none;
         font-size: 20px;
         margin: 0;
-        padding-left: 25px;
+        padding-left: 20px;
+        padding-bottom: 8px;
     }
 
     #socials-div {
@@ -1018,7 +1021,7 @@ textarea {
     }
 
     #free-quote-div {
-        padding-bottom: 37px;
+        padding-bottom: 56px;
         padding-top: 5px;
     }
 
