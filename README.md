@@ -150,3 +150,62 @@ The website consists of four separate pages:
 - Adobe Color
 - Font Awsome
 - Favicon<span>.</span>io
+
+## Features
+The page consists of four pages and nine features
+
+### Logo and Navigation Bar
+- Featured on all five pages
+- The navbar is fully responsive and changes to a toggler (hamburger menu) on smaller screens and includes
+links to the Homepage, About page, Menu page, Gallery and Contact us page
+- It allows users to easily navigate the page
+- The link for the page the user is currently on is highlighted 
+
+![Logo and navbar]()
+
+### Home-page-image
+- Introduces the user to the restaurant with a small three picture slide show
+- Options for the user to navigate the slide show via back and forward arrows or indicators at the bottom
+
+![home page image]()
+
+### What we do
+- Allowes the user to see upcoming events or any news about the restaurant
+- User stories covered: 13
+
+![What we do]()
+
+### Footer
+- Allowes users to see what meal-deal is available for the upcoming Sunday
+- User stories covered: 5
+
+![footer]()
+
+### Our-services
+- Featured on all five pages
+- Consists of three seperate sections: contact information, opening times, and social media links
+- User stories covered: 1, 6, 7, 10, 15
+
+![our services]()
+
+### About Us
+- Gives a description of the restaurant and its facilities with a image of the front of the building on the right side
+- User stories covered: 3, 14
+
+![About Us]()
+
+### Contact us
+- Features a few reviews left by the restaurants customers on social media
+- User stories covered: 3
+
+![contact us]()
+
+### Embedded google map
+- Features a short bio of the chef with an image of the chef on the left side
+- User stories covered: 11
+
+![embedded google map]()
+
+### Free quote form
+
+![free quote form]()
