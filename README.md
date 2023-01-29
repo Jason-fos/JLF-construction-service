@@ -81,8 +81,7 @@
 
 #### Site Owner 
 7. As the site owner, I want users to be able to contact us easily.
-8. As the site owner, I want to attract the users attention.
-9. As the site owner, I want to advertise and promote the companies qualities.
+8. As the site owner, I want to advertise and promote the companies qualities.
 
 ## Design
 
@@ -302,7 +301,6 @@ The website was tested on the following browsers:
 |-------------|------------|---------------------|-------------------|
 | Our services | Click the Our services link from the navigation menu | Locate information about the services provided | Works as expected |
 
-
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story2.png">
 <img src="docs/user-story-testing/user-story2-servpage.png">
@@ -315,10 +313,81 @@ The website was tested on the following browsers:
 | About us, Contact us | Click the About us link from the navigation menu | Locate information about location of the company | Works as expected |
 | Map | Click the About us link from the navigation menu, scroll down to map | Find company address on a map | Works as expected |
 
-
 <details><summary>Screenshots</summary>
 <img src="docs/user-story-testing/user-story3.png">
 <img src="docs/user-story-testing/user-story3-mid.png">
 <img src="docs/user-story-testing/user-story3-map.png">
+</details>
 
+4. As a first time user, I want to see the quality of the work provided.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Our services | Click the Our services link from the navigation menu | Find images of the companies previous work | Works as expected |
+| Footer - socials | On any page scroll down to the footer | Find social media accounts | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story4.png">
+<img src="docs/user-story-testing/user-story4-servpage.png">
+<img src="docs/user-story-testing/user-story4-scroll.png">
+<img src="docs/user-story-testing/user-story4-footer.png">
+</details>
+
+5. As a returning user, I want to contact the company.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us | Click the About us link from the navigation menu | Locate contact us section | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story5.png">
+<img src="docs/user-story-testing/user-story5-contact.png">
+</details>
+
+6. As a returning user, I want to arrange a quote.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Free quote form | Click the Free quote link from the navigation menu | Locate free quote page | Works as expected |
+| Footer - Free quote link | On any page scroll to the bottom to find the footer | Locate free quote link in footer | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story6.png">
+<img src="docs/user-story-testing/user-story6-form.png">
+<img src="docs/user-story-testing/user-story6-scroll.png">
+<img src="docs/user-story-testing/user-story6-footer.png">
+</details>
+
+7. As the site owner, I want users to be able to contact us easily.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Contact us | Click the About us link from the navigation menu | Locate contact details | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story7.png">
+<img src="docs/user-story-testing/user-story7-contact.png">
+</details>
+
+8.  As the site owner, I want to attract the users attention.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| Home page image | None | Attract users attention | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story8.png">
+</details>
+
+9. As the site owner, I want to advertise and promote the companies qualities.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| About us | Click the About us link from the navigation menu | Promote/advertise company ideals | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/user-story9-home.png">
+<img src="docs/user-story-testing/user-story9-about.png">
+<img src="docs/user-story-testing/user-story9.png">
+<img src="docs/user-story-testing/user-story9-what-we-do.png">
 </details>
