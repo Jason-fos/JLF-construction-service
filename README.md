@@ -82,6 +82,7 @@
 #### Site Owner 
 7. As the site owner, I want users to be able to contact us easily.
 8. As the site owner, I want to advertise and promote the companies qualities.
+9. As the site owner, I dont want the user to use the browser back arrow when no page is found.
 
 ## Design
 
@@ -133,6 +134,11 @@ The website consists of four separate pages:
 <img src="docs/wireframes/quote-form-ipad.png">
 <img src="docs/wireframes/quote-form-iphone.png">
 </details>
+<details><summary>404 error page</summary>
+<img src="docs/wireframes/404page-desktop.png">
+<img src="docs/wireframes/404page-ipad.png">
+<img src="docs/wireframes/404page-iphone.png">
+</details>
 
 ## Technologies Used
 
@@ -165,7 +171,7 @@ The page consists of four pages and nine features
 ### Home Page Image
 - Introduces the user to the page with an eye cathcing image of a high end property and driveway.
 - Allows the user to see very briefly the style and type of work done by the company.
-- User stories covered: 8, 9
+- User stories covered: 8
 
 ![home page image](/docs/features/home-page-image.png)
 
@@ -175,7 +181,7 @@ The page consists of four pages and nine features
   services provided.
 - There are 3 links, 1 for driveways and surfacing services, 1 for garden and outdoor spaces services and another for the about
   us section.  
-- User stories covered: 1, 2, 3, 8, 9
+- User stories covered: 1, 2, 3, 8
 
 ![What we do](/docs/features/what-we-do-image.png)
 
@@ -183,14 +189,14 @@ The page consists of four pages and nine features
 - Features on all 4 pages.
 - Contains links to social media accounts allowing users to find more info and images about the company.
 - Link to the free quote form in the footer allowing the user to start a quote.
-- User stories covered: 1, 6, 9
+- User stories covered: 1, 6
 
 ![footer](/docs/features/footer-image.png)
 
 ### Our Services
 - Contains text detailing the services and works provided clearly to the user.
 - Contains images to show the user the quality of works provided
-- User stories covered: 2, 4, 8, 9
+- User stories covered: 2, 4, 8
 
 ![our services](/docs/features/our-services-images2.png)
 ![our services](/docs/features/our-services-images.png)
@@ -198,7 +204,7 @@ The page consists of four pages and nine features
 
 ### About Us
 - Gives a description of the company, its qualities and ideals so the user can better understand the company.
-- User stories covered: 1, 3, 9
+- User stories covered: 1, 3
 
 ![About Us](/docs/features/about-us-image.png)
 
@@ -220,12 +226,31 @@ The page consists of four pages and nine features
 
 ![free quote form](/docs/features/quote-form-image.png)
 
+### 404 error page
+- Allows the user to navigate back to home page without using browser back arrow.
+- User stories covered: 9
+
+![404 error page](/docs/features/404page.png)
+
+
 ## Validation
 
 ### HTML Validation
 The W3C Markup Validation Service was used to validate the HTML of the website, entire site passed with 0 errors or warnings.
-<details><summary>Entire site</summary>
-<img src="docs/validation/w3c-html-validation.png">
+<details><summary>Home</summary>
+<img src="docs/validation/homepage.html.validation.png">
+</details>
+<details><summary>Our services</summary>
+<img src="docs/validation/our-services-html-validation.png">
+</details>
+<details><summary>About us</summary>
+<img src="docs/validation/about-us-html-validation.png">
+</details>
+<details><summary>Free quote</summary>
+<img src="docs/validation/form-html-validation.png">
+</details>
+<details><summary>404 page</summary>
+<img src="docs/validation/404-html-validation.png">
 </details>
 
 ### CSS Validation
@@ -369,25 +394,25 @@ The website was tested on the following browsers:
 <img src="docs/user-story-testing/user-story7-contact.png">
 </details>
 
-8.  As the site owner, I want to attract the users attention.
-
-| **Feature** | **Action** | **Expected Result** | **Actual Result** |
-|-------------|------------|---------------------|-------------------|
-| Home page image | None | Attract users attention | Works as expected |
-
-<details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story8-home-image.png">
-</details>
-
-9. As the site owner, I want to advertise and promote the companies qualities.
+8. As the site owner, I want to advertise and promote the companies qualities.
 
 | **Feature** | **Action** | **Expected Result** | **Actual Result** |
 |-------------|------------|---------------------|-------------------|
 | About us | Click the About us link from the navigation menu | Promote/advertise company ideals | Works as expected |
 
 <details><summary>Screenshots</summary>
-<img src="docs/user-story-testing/user-story9-home.png">
-<img src="docs/user-story-testing/user-story9-about.png">
+<img src="docs/user-story-testing/user-story8-home.png">
+<img src="docs/user-story-testing/user-story8-about.png">
+</details>
+
+9. As the site owner, I dont want the user to use the browser back arrow when no page is found.
+
+| **Feature** | **Action** | **Expected Result** | **Actual Result** |
+|-------------|------------|---------------------|-------------------|
+| 404 page | Click any link in navigation bar to return to site | Prevent user from using browser back arrows | Works as expected |
+
+<details><summary>Screenshots</summary>
+<img src="docs/user-story-testing/404page.png.png">
 </details>
 
 ## Bugs
@@ -411,11 +436,11 @@ You can fork the repository by following these steps:
 
 You can clone the repository by following these steps:
 1. Go to the GitHub repository. 
-2. Locate the Code button above the list of files and click it. 
-3. Select if you prefer to clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL to your clipboard.
+2. Find the Code button above the list of files and click it. 
+3. Select which you prefer, clone using HTTPS, SSH, or Github CLI and click the copy button to copy the URL.
 4. Open Git Bash.
 5. Change the current working directory to the one where you want the cloned directory.
-6. Type git clone and paste the URL from the clipboard.
+6. Type git clone and paste the copied URL.
 7. Press Enter to create your local clone.
 
 ## Credits
